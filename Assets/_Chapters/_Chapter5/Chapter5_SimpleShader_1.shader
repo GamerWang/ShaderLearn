@@ -1,4 +1,4 @@
-﻿Shader "_Unity Shaders Book/Chapter 5/Simple Shader 5.2.1" {
+﻿Shader "_Unity Shaders Book/Chapter 5/5.2.1 Simple Shader" {
 	SubShader{
 		Pass {
 			CGPROGRAM

@@ -1,4 +1,4 @@
-﻿Shader "_Unity Shaders Book/Chapter 5/Simple Shader 5.2.4" {
+﻿Shader "_Unity Shaders Book/Chapter 5/5.2.4 Simple Shader" {
 	Properties {
 		// declare a Color type property
 		_Color ("Color Tint", Color) = (1.0, 1.0, 1.0, 1.0)

@@ -1,4 +1,4 @@
-﻿Shader "_Unity Shaders Book/Chapter 5/False Color 5.5.1" {
+﻿Shader "_Unity Shaders Book/Chapter 5/5.5.1 False Color" {
 	SubShader {
 		Pass {
 			CGPROGRAM
