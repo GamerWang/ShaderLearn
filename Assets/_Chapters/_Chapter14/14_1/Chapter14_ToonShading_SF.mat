@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Chapter14_ToonShading
-  m_Shader: {fileID: 4800000, guid: f4adb02be3bea2a4496fb8e07f6fa83d, type: 3}
+  m_Name: Chapter14_ToonShading_SF
+  m_Shader: {fileID: 4800000, guid: 35d323b05752c274c8d96bbfa8f2cb24, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,7 +54,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Ramp:
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 0c08a6ec0721e8847aebb813e3e5c26a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6050:
         m_Texture: {fileID: 2800000, guid: d6a0b8afb54b99c4380b20059d60c9da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -64,23 +68,20 @@ Material:
     - _DetailNormalMapScale: 1
     - _DiffuseScale: 0.36
     - _DstBlend: 0
+    - _Gloss: 0.02
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Outline: 0.01
-    - _OutlineNormalZ: -0.5
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularScale: 0.02
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.9411765, g: 0.63529414, b: 0.63529414, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Specular: {r: 0.46323532, g: 0.1532764, b: 0.1532764, a: 1}
+    - _SpecColor: {r: 0.4627451, g: 0.15294118, b: 0.15294118, a: 1}

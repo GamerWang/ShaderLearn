@@ -129,7 +129,7 @@ Shader "_Unity Shaders Book/Chapter 14/Chapter14_ToonShading" {
 				fixed4 c = tex2D(_MainTex, i.uv);
 				fixed3 albedo = c.rgb * _Color.rgb;
 
-				fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
+				fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;	// this makes ambient looks propper
 
 				UNITY_LIGHT_ATTENUATION(atten, i, i.worldPos);		// calculate shadow on this point
 
