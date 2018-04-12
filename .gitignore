@@ -1,4 +1,6 @@
 .vs
+.vscode
+obj
 Library
 Temp
 *.csproj
