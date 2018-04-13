@@ -31,14 +31,14 @@ Shader "_Unity Shaders Book/Chapter 7/Chapter_7_2_Normal_world"
 			fixed4 _Specular;
 			float _Gloss;
 
-			struct VertexInput{
+			struct VertexInput {
 				float4 vertex : POSITION;
 				float3 normal : NORMAL;
 				float4 tangent : TANGENT;
 				float4 texcoord : TEXCOORD0;
 			};
 
-			struct VertexOutput{
+			struct VertexOutput {
 				float4 pos : SV_POSITION;
 				float4 uv : TEXCOORD0;
 				float4 TtoW0 : TEXCOORD1;
