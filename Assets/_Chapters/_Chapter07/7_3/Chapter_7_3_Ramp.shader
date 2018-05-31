@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
-Shader "Unlit/Chapter_7_3_Ramp"
+Shader "_Unity Shaders Book/Chapter 7/Chapter_7_3_Ramp"
 {
 	Properties
 	{
